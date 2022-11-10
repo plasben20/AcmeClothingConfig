@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:0}
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://benedi:benedi@cluster0.lwvvsrh.mongodb.net/db03?retryWrites=true&w=majority
+  jpa:
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+logging:
+  level:
+    sql: debug
