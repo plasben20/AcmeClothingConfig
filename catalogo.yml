@@ -7,9 +7,9 @@ spring:
       authentication-database: admin
       username: root
       password: root
-      database: prendasdb
+      database: familiasdb
       host: localhost
-      port: 27017
+      port: 27019
   jpa:
     show-sql: true
   mvc:
