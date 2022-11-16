@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://${hoteles-db:localhost}:${hoteles-port:3308}/hotelesdb
+    url: jdbc:mysql://${stock-db:localhost}:${stock-port:3308}/stockdb
     initialization-mode: always
     continue-on-error: true
   jpa:
